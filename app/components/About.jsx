@@ -11,7 +11,7 @@ const About = () => {
             About me</h2>
 
             <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
-                <div className='w-40 h-72 sm:w-[16rem] sm:h-80 rounded-3xl max-w-none'>
+                <div className='w-[13rem] h-72 sm:w-[16rem] sm:h-80 rounded-3xl max-w-none'>
                     <Image src={assets.user_image} alt="user" className='w-full h-full object-cover rounded-3xl'/>
                 </div>
                 <div className='flex-1'>
